@@ -3,6 +3,15 @@ import java.util.*;
 public class labsesq3V1 {
     // sum of all odd number from 1 to N
     public static void main(String[] args) {
-        // have to complete
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Last Number");
+        int N = sc.nextInt();
+        int sum = 0;
+        for(int i = 1; i<=N; i+=2){
+            sum+=i;
+                    
+            
+        }
+        System.out.print("Sum of all odds : "+sum);
     }
 }
