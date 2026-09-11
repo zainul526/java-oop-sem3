@@ -4,7 +4,7 @@ const students = [
     { name: "John", marks: 45 }
 ];
 
-function checkResult(student) {
+const checkResult = (student)=> {
 
     if (student.marks >= 50) {
         console.log(`${student.name}: Pass`);
