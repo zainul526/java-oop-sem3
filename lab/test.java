@@ -18,7 +18,7 @@ class Student {
 
     // 2 argument constructor
     Student(String name, int age) {
-        this(name, age, "BCA");
+        this(name, age, "Bsc");
         System.out.println("2 argument constructor");
     }
 
