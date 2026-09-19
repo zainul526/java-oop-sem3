@@ -6,7 +6,7 @@ public class q11 {
 //  * *
 //   *
 public static void main(String[] args){
-    int count = 3;
+    int count = 4;
  //upper pattern
     for(int i=1; i<=count; i++){
         for(int spc=1; spc <= count-i; spc++){
