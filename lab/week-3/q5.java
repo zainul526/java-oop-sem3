@@ -12,8 +12,10 @@ public static void main(String [] args){
   System.out.println("Enter your y value of second point");
  double y2 = input.nextDouble();
  
+ double dx = x2 - x1;
+ double dy = y2-y1;
 
- double dist = Math.sqrt(Math.pow((y2-y1), 2)+Math.pow((x2-x1), 2));
+ double dist = Math.hypot(dx,dy);
  System.out.print("The distance between ("+x1+","+y1+") & ("+x2+ ","+ y2+") is : "+ dist);
 }
 }
